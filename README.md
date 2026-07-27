@@ -34,7 +34,12 @@ Devido ao limite de tamanho do GitHub, os conjuntos de dados não estão version
 
 1. **`Retail_Transactions_Dataset.csv`**: https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset
 2. **`varejo_brasil_long.csv`**: Dataset sintético/simulado para análise e modelagem do mercado brasileiro.
-
+Trecho dos dados:
+transacao_id,item
+1,atum enlatado
+1,cerveja lata
+1,geleia
+(...)
 ---
 
 ## Como Executar o Projeto
