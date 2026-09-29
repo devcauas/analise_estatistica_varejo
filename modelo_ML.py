@@ -1,9 +1,3 @@
-"""
-- [Algoritmo FP-Growth]  Você pode pesquisar sobre **Algoritmo Apriori, Algoritmo FP-Growth (Frequent Pattern Growth) e Algoritmo Eclat.**
-- [ ]  É importante que você crie métricas para avaliar o modelo e que você explique o porquê escolheu determinada técnica.
-- [ ]  Lembre-se de criar elementos visuais para a suas análises, como gráficos e tabelas.
-"""
-
 # %%
 import pandas as pd
 import matplotlib.pyplot as plt
