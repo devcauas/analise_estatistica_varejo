@@ -1,6 +1,6 @@
-# Análise Estatística e Preditiva do Setor de Varejo
+# Análise Estatística e Market Basket do Setor de Varejo
 
-Este repositório contém um estudo estatístico e de Machine Learning voltado para o setor de varejo (incluindo dados do mercado brasileiro e transações). O objetivo do projeto é extrair *insights* de vendas, analisar tendências do setor e construir modelos preditivos para tomada de decisão.
+Este repositório contém um estudo estatístico e de Machine Learning voltado para o setor de varejo (incluindo dados do mercado brasileiro e transações). O objetivo do projeto é extrair *insights* de vendas, analisar tendências do setor e encontrar regras de associação entre produtos (FP-Growth), que viram recomendações a partir do carrinho.
 
 ---
 
@@ -9,7 +9,7 @@ Este repositório contém um estudo estatístico e de Machine Learning voltado p
 * **`analise_exploratoria.py`**: Análise inicial de dados (EDA), distribuição de vendas, identificação de outliers e estatísticas descritivas das transações.
 * **`analise_setor.py`**: Avaliação de desempenho por segmento/categoria do varejo e comportamento ao longo do tempo.
 * **`modelo_ML.py`**: Market basket analysis com FP-Growth no setor Pharmacy: itemsets frequentes, regras de associação avaliadas por lift e função de recomendação por produto.
-* **`modelo_varejo_brasil.py`**: Modelagem e análise focada nas especificidades e dados do mercado varejista brasileiro.
+* **`modelo_varejo_brasil.py`**: Regras de associação (FP-Growth) e grafo de produtos (NetworkX) com os dados do varejo brasileiro.
 * Exemplo:
 transacao_id,item
 1,atum enlatado
